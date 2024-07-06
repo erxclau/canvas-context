@@ -66,6 +66,7 @@ function createCanvasContext(contextType = "2d", options = {}) {
         ? canvas.getContext("experimental-webgl", contextAttributes)
         : null);
   } catch (error) {
+    console.error(error);
     context = null;
   }
 
