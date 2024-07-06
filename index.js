@@ -1,6 +1,4 @@
-/**
- * @module createCanvasContext
- */
+/** @module createCanvasContext */
 
 const contextTypeList = [
   "2d",
@@ -77,3 +75,5 @@ function createCanvasContext(contextType = "2d", options = {}) {
 }
 
 export default createCanvasContext;
+
+export * from "./types.js";
