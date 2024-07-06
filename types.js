@@ -3,7 +3,7 @@
  */
 
 /**
- * @typedef {Object} CanvasContextOptions Options for canvas creation. All optional.
+ * @typedef {object} CanvasContextOptions Options for canvas creation. All optional.
  * @property {number} [width=300] Request an initial canvas width.
  * @property {number} [height=150] Request an initial canvas height.
  * @property {boolean} [offscreen=false] Request an offscreen canvas.
@@ -12,7 +12,7 @@
  */
 
 /**
- * @typedef {Object} CanvasContextReturnValue
+ * @typedef {object} CanvasContextReturnValue
  * @property {HTMLCanvasElement | OffscreenCanvas} canvas
  * @property {RenderingContext} context
  */
