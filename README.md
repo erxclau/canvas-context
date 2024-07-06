@@ -55,10 +55,10 @@ const { context, canvas } = createCanvasContext("2d", {
 <dt><a href="#ContextType">ContextType</a> : <code>&quot;2d&quot;</code> | <code>&quot;webgl&quot;</code> | <code>&quot;experimental-webgl&quot;</code> | <code>&quot;webgl2&quot;</code> | <code>&quot;webgl2-compute&quot;</code> | <code>&quot;bitmaprenderer&quot;</code> | <code>&quot;gpupresent&quot;</code> | <code>&quot;webgpu&quot;</code></dt>
 <dd><p>A DOMString containing the context identifier defining the drawing context associated to the canvas.</p>
 </dd>
-<dt><a href="#CanvasContextOptions">CanvasContextOptions</a> : <code>Object</code></dt>
+<dt><a href="#CanvasContextOptions">CanvasContextOptions</a> : <code>object</code></dt>
 <dd><p>Options for canvas creation. All optional.</p>
 </dd>
-<dt><a href="#CanvasContextReturnValue">CanvasContextReturnValue</a> : <code>Object</code></dt>
+<dt><a href="#CanvasContextReturnValue">CanvasContextReturnValue</a> : <code>object</code></dt>
 <dd></dd>
 </dl>
 
@@ -88,7 +88,7 @@ A DOMString containing the context identifier defining the drawing context assoc
 **Kind**: global typedef
 <a name="CanvasContextOptions"></a>
 
-## CanvasContextOptions : <code>Object</code>
+## CanvasContextOptions : <code>object</code>
 
 Options for canvas creation. All optional.
 
@@ -105,7 +105,7 @@ Options for canvas creation. All optional.
 
 <a name="CanvasContextReturnValue"></a>
 
-## CanvasContextReturnValue : <code>Object</code>
+## CanvasContextReturnValue : <code>object</code>
 
 **Kind**: global typedef
 **Properties**
